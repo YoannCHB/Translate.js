@@ -1,4 +1,4 @@
-# Translate
+# Translate.js
 
  > In first you need to define the key into the code !
  
