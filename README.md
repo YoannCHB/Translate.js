@@ -29,7 +29,7 @@ window.onload = function(){
 }
 ```
 
-Language	| Code	Language	| Code
+# Language	| Code	Language	| Code
 --------------------------------
 - Azerbaijan	az	- Malayalam	ml
 - Albanian	sq	- Maltese	mt
