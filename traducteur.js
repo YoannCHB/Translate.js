@@ -6,6 +6,10 @@
     - data.to = "en"
     - Translate() --> To launch the translation
 */
+const key = ""; //YOUR KEY
+
+
+
 
 const auto_url=function(u){try{let url=new window.URL(u);let s=Boolean(url);return s}
 catch(e){return!1}}
@@ -73,7 +77,7 @@ function traduc(e, r){
         r.innerHTML = result.replace(data.innerHTML, '');
         console.log(result + " ---> " + test[0])
     });
-    trad.connect("https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20190116T140120Z.00f8ae71621ed1e0.eaefcd93daec53e594f1c0ce8527e69005b1b64e&text=" + encodeURIComponent(e) + "%20how%20are%20you&ui=json&lang=" + data.to);
+    trad.connect("https://translate.yandex.net/api/v1.5/tr.json/translate?key="+ key +"&text=" + encodeURIComponent(e) + "%20how%20are%20you&ui=json&lang=" + data.to);
 }
 
 var type = [tag("p"), tag("span"), tag("i"), tag('pre')]
