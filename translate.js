@@ -75,7 +75,7 @@ function traduc(e, r){
             result = r.innerHTML;
         }
         r.innerHTML = result.replace(data.innerHTML, '');
-        console.log(result + " ---> " + test[0])
+        //console.log(result + " ---> " + test[0])
     });
     trad.connect("https://translate.yandex.net/api/v1.5/tr.json/translate?key="+ key +"&text=" + encodeURIComponent(e) + "%20how%20are%20you&ui=json&lang=" + data.to);
 }
