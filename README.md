@@ -8,6 +8,7 @@ Get your api key --> https://tech.yandex.com/translate/
 # V-beta
 
 ```js
+  key = "zdizjdzdrhrgrjgnrgrngrr" //Your api key / Here it is an example
   data.to = "en" //Translate to english
   Translate() //Launch the function
   type.push(tag("a")) //Push a new tag to translate (default: p, span, pre, i)
