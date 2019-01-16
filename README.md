@@ -1,4 +1,5 @@
-# Translate-My-Page
+# Translate
+
  > In first you need to define the key into the code !
  
  #<img alt="Translate Image" title="Translate" src="icon.png" width="50%"/>
