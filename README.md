@@ -1,7 +1,7 @@
 # Translate-My-Page
  > In first you need to define the key into the code !
  
- #<img alt="Translate Image" title="Translate" src="icon.png"/>
+ #<img alt="Translate Image" title="Translate" src="icon.png" width="50%"/>
  
   Just translate your page in any languages in a few times ! It's simple juste look the code here and put them into your code javascript, it will go to translate all your page into english, french, chiness, spanish ...
   
