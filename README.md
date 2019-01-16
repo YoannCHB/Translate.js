@@ -8,7 +8,7 @@
  <img alt="Translate Image" title="Translate" src="icon.png" width="50%"/>
  
  ----------------------------------
-Just translate your page in any languages in a few minutes ! It's simple just look the code and put them in your website, it will go to translate your homepage in english, french, chines, spanish ...
+Just translate your page in any languages in a few minutes ! It's simple just look the code and put them in your website, it will go to translate your homepage in english, french, chines, spanish ... Or in the language of user.
 ----------------------------------
 
 # Version-Beta
