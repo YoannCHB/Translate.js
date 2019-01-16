@@ -8,7 +8,7 @@
  <img alt="Translate Image" title="Translate" src="icon.png" width="50%"/>
  
  ----------------------------------
-Just translate your page in any languages in a few times ! It's simple juste look the code here and put them into your code javascript, it will go to translate all your page into english, french, chiness, spanish ... This program detect automaticaly the language use by the user.
+Just translate your page in any languages in a few minutes ! It's simple just look the code and put them in your website, it will go to translate your homepage in english, french, chines, spanish ...
 ----------------------------------
 
 # Version-Beta
