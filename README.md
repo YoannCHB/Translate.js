@@ -15,8 +15,8 @@ Just translate your page in any languages in a few times ! It's simple juste loo
 - [x] When you put your api key you can start !
 
 ```js
-  key = "zdizjdzdrhrgrjgnrgrngrr" //Your api key / Here it is an example
-  data.to = "en" //Translate to english
-  Translate() //Launch the function
+  key = "zdizjdzdrhrgrjgnrgrngrr" //Your api key - Here it is an example
+  data.to = "en" //Translate to english ('fr' French ...)
   type.push(tag("a")) //Push a new tag to translate (default: p, span, pre, i)
+  Translate() //Launch the translation
 ```
