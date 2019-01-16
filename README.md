@@ -2,6 +2,10 @@
 
  > In first you need to define the key into the code !
  
+ [![npm](https://img.shields.io/npm/v/anticore.svg?style=plastic)]()
+[![Download](https://img.shields.io/chocolatey/dt/scriptcs.svg?style=plastic)](https://github.com/YoannCHB/Break/blob/gh-pages/break.js)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://fr.wikipedia.org/wiki/JavaScript)
+
 -  Get your api key --> https://tech.yandex.com/translate/
 -  XMLHttpRequest Method --> https://github.com/YoannCHB/Break
 
