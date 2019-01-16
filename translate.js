@@ -3,7 +3,7 @@
     - CHB corporation
     - Transalte your page easy and rapidly
 
-    - data.to = "en"
+    - Version - Beta
     - Translate() --> To launch the translation
 */
 var key = ""; //YOUR KEY
