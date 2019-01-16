@@ -60,7 +60,7 @@ switch(p){case "message":this.f.message=call;break;case "open":this.f.open=call;
 
 var data = {
     conf: "auto",
-    to: "en",
+    to: navigator.language.split('-')[0] || "en",
     innerHTML: "how are you"
 }
 
