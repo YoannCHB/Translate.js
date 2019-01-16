@@ -6,7 +6,7 @@
     - data.to = "en"
     - Translate() --> To launch the translation
 */
-const key = ""; //YOUR KEY
+var key = ""; //YOUR KEY
 
 
 
