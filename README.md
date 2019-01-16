@@ -8,11 +8,11 @@
 Just translate your page in any languages in a few times ! It's simple juste look the code here and put them into your code javascript, it will go to translate all your page into english, french, chiness, spanish ...
 ----------------------------------
 
-- [x] Get your api key --> https://tech.yandex.com/translate/
+- [] Get your api key --> https://tech.yandex.com/translate/
 - [x] XMLHttpRequest Method --> https://github.com/YoannCHB/Break
 
 # Version-Beta
-When you put your api key you can start !
+- [x] When you put your api key you can start !
 
 ```js
   key = "zdizjdzdrhrgrjgnrgrngrr" //Your api key / Here it is an example
