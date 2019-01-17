@@ -80,7 +80,7 @@ function traduc(e, r){
     trad.connect("https://translate.yandex.net/api/v1.5/tr.json/translate?key="+ key +"&text=" + encodeURIComponent(e) + "%20how%20are%20you&ui=json&lang=" + data.to);
 }
 
-var type = [tag("p"), tag("span"), tag("i"), tag('pre')]
+var type = [tag("p"), tag("span"), tag("i"), tag('pre'), tag('label')]
 
 function tag(e){
     let c = document.getElementsByTagName(e);
