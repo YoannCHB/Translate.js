@@ -92,7 +92,7 @@ for(var n in type){
     for(var i in type[n]){
         define();
         let c = type[n][i];
-        if(c.innerHTML)
+        if(c.innerHTML && key && key.trim() != "")
         traduc(c.innerHTML, c);
     }
 }
