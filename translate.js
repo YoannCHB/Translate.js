@@ -74,10 +74,10 @@ function traduc(e, r){
         if(!result){
             result = r.innerHTML;
         }
-        r.innerHTML = result.replace(data.innerHTML, '');
+        r.innerHTML = result;
         //console.log(result + " ---> " + test[0])
     });
-    trad.connect("https://translate.yandex.net/api/v1.5/tr.json/translate?key="+ key +"&text=" + encodeURIComponent(e) + "%20how%20are%20you&ui=json&lang=" + data.to);
+    trad.connect("https://translate.yandex.net/api/v1.5/tr.json/translate?key="+ key +"&text=" + encodeURIComponent(e) + "&ui=json&lang=" + data.to);
 }
 
 var type = [tag("p"), tag("span"), tag("i"), tag('pre'), tag('label')]
@@ -90,14 +90,9 @@ function tag(e){
 function Translate(){
 for(var n in type){
     for(var i in type[n]){
-        define();
         let c = type[n][i];
         if(c.innerHTML && key && key.trim() != "")
         traduc(c.innerHTML, c);
     }
 }
-}
-
-function define(){
-    traduc(data.innerHTML, data)
 }
